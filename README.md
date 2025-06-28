@@ -61,4 +61,4 @@ To provide HR professionals and managers with a centralized dashboard that:
 
 ## 📸 Screenshot
 
-![HR Dashboard Preview]() <!-- Replace with your actual image path -->
+![HR Dashboard Preview](HR_dashboard.png) <!-- Replace with your actual image path -->
