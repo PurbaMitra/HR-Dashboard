@@ -1,3 +1,6 @@
+# Save the README content to a markdown (.md) file using the provided template
+
+readme_content = """
 # 🧑‍💼 HR Dashboard – Employee Attendance Insights
 
 A dynamic, interactive Power BI dashboard designed to monitor employee attendance trends including **Presence %, Sick Leave %, and Work From Home %**—supporting HR professionals in making data-driven workforce decisions.
@@ -62,3 +65,11 @@ To provide HR professionals and managers with a centralized dashboard that:
 ## 📸 Screenshot
 
 ![HR Dashboard Preview](HR_dashboard.png) <!-- Replace with your actual image path -->
+"""
+
+# Save to a file
+file_path = "/mnt/data/README_HR_Dashboard_Final.md"
+with open(file_path, "w", encoding="utf-8") as f:
+    f.write(readme_content)
+
+file_path
